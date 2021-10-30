@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-boilerplate/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/react-boilerplate/static/js/main.1b53cce9.chunk.js",
+    "main.js.map": "/react-boilerplate/static/js/main.1b53cce9.chunk.js.map",
+    "runtime-main.js": "/react-boilerplate/static/js/runtime-main.a3717755.js",
+    "runtime-main.js.map": "/react-boilerplate/static/js/runtime-main.a3717755.js.map",
+    "static/js/2.946da572.chunk.js": "/react-boilerplate/static/js/2.946da572.chunk.js",
+    "static/js/2.946da572.chunk.js.map": "/react-boilerplate/static/js/2.946da572.chunk.js.map",
+    "static/js/3.ad54af22.chunk.js": "/react-boilerplate/static/js/3.ad54af22.chunk.js",
+    "static/js/3.ad54af22.chunk.js.map": "/react-boilerplate/static/js/3.ad54af22.chunk.js.map",
+    "index.html": "/react-boilerplate/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/react-boilerplate/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.946da572.chunk.js.LICENSE.txt": "/react-boilerplate/static/js/2.946da572.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/react-boilerplate/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3717755.js",
+    "static/js/2.946da572.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1b53cce9.chunk.js"
+  ]
+}
