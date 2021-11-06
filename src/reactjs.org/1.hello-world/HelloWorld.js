@@ -1,8 +1,8 @@
 const HelloWorld = function () {
     return (
-        <article className={"mt-3"}>
+        <section className={"mt-3"}>
             <h3>1. Hello World</h3>
-        </article>
+        </section>
     )
 }
 
