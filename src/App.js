@@ -5,6 +5,9 @@ import Jsx from './reactjs.org/2.jsx/Jsx'
 import RenderingElements from './reactjs.org/3.rendering-elements/RenderingElements'
 import Welcome from './reactjs.org/4.components-props/Welcome'
 import Clock from './reactjs.org/5.state-lifecycle/Clock'
+import Form from './reactjs.org/6.handling-events/Form'
+import Toggle from './reactjs.org/6.handling-events/Toggle'
+import LoginControl from './reactjs.org/7.conditional-rendering/LoginControl'
 // import Counter from './state/Counter'
 
 const App = () => {
@@ -15,6 +18,9 @@ const App = () => {
             <RenderingElements></RenderingElements>
             <Welcome name={'moregorenine'}/>
             <Clock/>
+            <Form/>
+            <Toggle/>
+            <LoginControl/>
         </div>
     );
 }
