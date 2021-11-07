@@ -4,7 +4,8 @@ class Toggle extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            isToggleOn: true
+            isToggleOn: true,
+            btnColor: 'btn-primary'
         }
         // this.handleClick = this.handleClick.bind(this)
     }
@@ -17,7 +18,8 @@ class Toggle extends React.Component {
 
     handleClick = () => {
         this.setState(preState => ({
-            isToggleOn: !preState.isToggleOn
+            isToggleOn: !preState.isToggleOn,
+            btnColor: preState.btnColor === 'btn-primary' ? 'btn-danger' : 'btn-primary'
         }))
     }
 
@@ -25,7 +27,7 @@ class Toggle extends React.Component {
         return (
             <>
                 <h5>6.2 Toggle</h5>
-                <button onClick={this.handleClick} className={"btn btn-primary"}>
+                <button onClick={this.handleClick} className={"btn " + this.state.btnColor}>
                     {this.state.isToggleOn ? 'ON' : 'OFF'}
                 </button>
             </>
