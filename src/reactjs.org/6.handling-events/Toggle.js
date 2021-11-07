@@ -6,10 +6,16 @@ class Toggle extends React.Component {
         this.state = {
             isToggleOn: true
         }
-        this.handleClick = this.handleClick.bind(this)
+        // this.handleClick = this.handleClick.bind(this)
     }
 
-    handleClick() {
+    // handleClick() {
+    //     this.setState(preState => ({
+    //         isToggleOn: !preState.isToggleOn
+    //     }))
+    // }
+
+    handleClick = () => {
         this.setState(preState => ({
             isToggleOn: !preState.isToggleOn
         }))
@@ -17,12 +23,12 @@ class Toggle extends React.Component {
 
     render() {
         return (
-            <section>
+            <>
                 <h5>6.2 Toggle</h5>
                 <button onClick={this.handleClick} className={"btn btn-primary"}>
                     {this.state.isToggleOn ? 'ON' : 'OFF'}
                 </button>
-            </section>
+            </>
         )
     }
 }
