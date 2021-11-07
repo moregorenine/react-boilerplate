@@ -1,6 +1,6 @@
 import React from "react";
-import Greeting from "./Greeting";
-import {LoginButton, LogoutButton} from "./Button"
+import LoginGreeting from "./LoginGreeting";
+import {LoginButton, LogoutButton} from "./LoginButton"
 
 class LoginControl extends React.Component {
     constructor(props) {
@@ -33,7 +33,7 @@ class LoginControl extends React.Component {
                 {/*11. Composition vs Inheritance*/}
                 {/*12. Thinking In React*/}
                 <h3>7. 조건부 렌더링</h3>
-                <Greeting isLoggedIn={isLoggedIn}/>
+                <LoginGreeting isLoggedIn={isLoggedIn}/>
                 {button}
             </section>
         )
