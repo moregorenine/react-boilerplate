@@ -25,7 +25,7 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <article className={'mt-3'}>
+            <section className={'mt-3'}>
                 {/*5. State and Lifecycle*/}
                 {/*6. Handling Events*/}
                 {/*7. Conditional Rendering*/}
@@ -36,7 +36,7 @@ class Clock extends React.Component {
                 {/*12. Thinking In React*/}
                 <h3>5. State and Lifecycle</h3>
                 <div>It is {this.state.date.toLocaleTimeString()}</div>
-            </article>
+            </section>
         )
     }
 }
