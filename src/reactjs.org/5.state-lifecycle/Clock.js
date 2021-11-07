@@ -25,7 +25,7 @@ class Clock extends React.Component {
 
     render() {
         return (
-            <section className={'mt-3'}>
+            <section className={'mt-4'}>
                 {/*5. State and Lifecycle*/}
                 {/*6. Handling Events*/}
                 {/*7. Conditional Rendering*/}

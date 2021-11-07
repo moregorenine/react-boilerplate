@@ -26,7 +26,7 @@ class Toggle extends React.Component {
     render() {
         return (
             <>
-                <h5>6.2 Toggle</h5>
+                <h5 className={'mt-2'}>6.2 Toggle</h5>
                 <button onClick={this.handleClick} className={"btn " + this.state.btnColor}>
                     {this.state.isToggleOn ? 'ON' : 'OFF'}
                 </button>

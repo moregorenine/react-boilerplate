@@ -8,9 +8,11 @@ import Clock from './reactjs.org/5.state-lifecycle/Clock'
 import Form from './reactjs.org/6.handling-events/Form'
 import Toggle from './reactjs.org/6.handling-events/Toggle'
 import LoginControl from './reactjs.org/7.conditional-rendering/LoginControl'
+import Mailbox from './reactjs.org/7.conditional-rendering/Mailbox'
 // import Counter from './state/Counter'
 
 const App = () => {
+    const messages = ['React', 'Re: React', 'Re:Re: React']
     return (
         <div className={"container mt-5"}>
             <HelloWorld></HelloWorld>
@@ -21,6 +23,7 @@ const App = () => {
             <Form/>
             <Toggle/>
             <LoginControl/>
+            <Mailbox unreadMessages={messages}/>
         </div>
     );
 }
