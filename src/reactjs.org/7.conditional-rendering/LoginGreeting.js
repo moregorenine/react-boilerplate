@@ -1,4 +1,4 @@
-const Greeting = function (props) {
+const LoginGreeting = function (props) {
 
     function GuestGreeting() {
         return (
@@ -34,4 +34,4 @@ const Greeting = function (props) {
 
 }
 
-export default Greeting
+export default LoginGreeting
