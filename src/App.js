@@ -9,7 +9,7 @@ import Form from './reactjs.org/main-concepts/6.handling-events/Form'
 import Toggle from './reactjs.org/main-concepts/6.handling-events/Toggle'
 import LoginControl from './reactjs.org/main-concepts/7.conditional-rendering/LoginControl'
 import Mailbox from './reactjs.org/main-concepts/7.conditional-rendering/Mailbox'
-import Example from "./reactjs.org/hook/1.introducing/Example";
+import Glance from "./reactjs.org/hook/2.glance/Glance";
 // import Counter from './state/Counter'
 
 const App = () => {
@@ -17,9 +17,9 @@ const App = () => {
     return (
         <div className={"container mt-5"}>
             <h1>주요 개념</h1>
-            <HelloWorld></HelloWorld>
-            <Jsx></Jsx>
-            <RenderingElements></RenderingElements>
+            <HelloWorld/>
+            <Jsx/>
+            <RenderingElements/>
             <Welcome name={'moregorenine'}/>
             <Clock/>
             <Form/>
@@ -28,7 +28,7 @@ const App = () => {
             <Mailbox unreadMessages={messages}/>
             <hr/>
             <h1>Hook</h1>
-            <Example/>
+            <Glance/>
         </div>
     );
 }
